@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>歌曲管理</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+</body>
+</html>
+<script src="js/lib/jquery-2.1.4.js"></script>
+<script src="js/app/index06.js"></script>
+<script>
+    $.get("json/songManager.json",function (songData) {
+        var songManager=new SongManager("body",songData);
+    });
+
+</script>

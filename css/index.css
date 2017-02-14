@@ -1,0 +1,22 @@
+.songmanager-container {
+  width: 600px;
+}
+.songmanager-container .songmanager-table {
+  margin-top: 10px;
+  text-align: center;
+  line-height: 40px;
+  height: 40px;
+}
+.songmanager-container .songmanager-table div {
+  float: left;
+}
+.songmanager-container .songmanager-table .table-header-colsongname,
+.songmanager-container .songmanager-table .table-header-colsingername {
+  width: 200px;
+}
+.songmanager-container .songmanager-table .table-header-coloperate {
+  width: 150px;
+}
+.songmanager-container .songmanager-table .table-header {
+  background-color: hotpink;
+}
